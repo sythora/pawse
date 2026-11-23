@@ -19,7 +19,7 @@ class Timer:
     def pause(self):
         if self.running:
             # save remaining time if paused
-            self.remaining = self.fetchremaining()
+            self.remaining = self.get_remaining()
             self.running = False
             self.started = None
 
