@@ -29,11 +29,17 @@ class Timer:
         self.running = False
         self.started = None
     def get_remaining(self):
-        if self.running:
-            elapsed = time.monotonic() - self.started
-            return max(0, self.remaining - elapsed)
-        else:
-            return self.remaining
+     if self.running:
+        elapsed = time.monotonic() - self.started
+        remaining = max(0, self.remaining - elapsed)
+
+        if remaining == 0:
+            self.remaining = 0
+            self.running = False
+
+        return remaining
+
+     return self.remaining
         
     def finished(self):
         return self.get_remaining() <= 0

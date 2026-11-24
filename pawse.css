@@ -1,0 +1,19 @@
+Screen {
+    background: #171321;
+    align: center middle;
+}
+
+#timer {
+    width: auto;
+    height: auto;
+    color: #e6d9ff;
+}
+
+Header {
+    background: #241c35;
+    color: #e6d9ff;
+}
+
+Footer {
+    background: #241c35;
+}
