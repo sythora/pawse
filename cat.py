@@ -7,8 +7,7 @@ if getattr(sys, "frozen", False):
     asset_dir = Path(sys._MEIPASS) / "assets"
 else: # MEIPASS is the pyinstaller temp, so its detecting 
     # if its running in py or pyinstaller
-    asset_dir = Path(__file__).parent.parent / "assets"
-
+    asset_dir = Path(__file__).parent / "assets" # fix cuz i went one to up or something
 class meow:
     def __init__(self):
         self.state_gifs = {
