@@ -1,6 +1,6 @@
 # Pawse
 Cat Pomodoro timer that lives in your terminal (cli).
-
+**ATTENTION: CATS WERE MADE WITH AI, SOWY IF THAT PISSES YOU OFF CODE IS HUMAN**
 Pawse is a "productivity" tool built around the Pomodoro tech (who would've known ;-;.) It combines the technique with a animated cat that depends on what you're doing, (cats were made via gen ai cuz i don't have art skills ;( sowy)
 
 ## Features
